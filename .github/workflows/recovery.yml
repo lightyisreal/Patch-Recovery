@@ -45,7 +45,7 @@ jobs:
         mv fastbootd-recovery.tar fastbootd-recovery.tar.md5
         
     - name: Upload artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v7
       with:
         name: "Patched-Recovery"
         path: output/*.md5
