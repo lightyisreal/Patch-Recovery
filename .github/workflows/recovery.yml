@@ -49,4 +49,3 @@ jobs:
       with:
         files: output/*.md5
         name: Patched-Recovery
-        tag_name: ${{ github.run_id }}
